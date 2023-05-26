@@ -6,6 +6,9 @@
         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">あとで</h1>
         <p class="mb-8 leading-relaxed">あとでは、あとでやろう！と思っていることを一括管理できるアプリです。</p>
       </div>
+      <div class="p-2 w-full">
+        <a href="{{ route('tasks.index') }}" class="btn flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</a>
+      </div>
     </div>
   </section>
 </x-app-layout>
