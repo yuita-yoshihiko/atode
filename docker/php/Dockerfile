@@ -2,6 +2,8 @@ FROM php:8.2-fpm
 
 ENV TZ Asia/Tokyo
 
+EXPOSE 5173
+
 RUN apt-get update && \
 	apt-get install -y git unzip libzip-dev libicu-dev libonig-dev && \
 	docker-php-ext-install intl pdo_mysql zip bcmath && \
