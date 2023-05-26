@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="csrf-token" content="{{ csrf_token() }}">
-
-      <title>{{ config('app.name', 'Laravel') }}</title>
-
-      <!-- Fonts -->
-      <link rel="preconnect" href="https://fonts.bunny.net">
-      <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-
-      <!-- Scripts -->
-      @vite(['resources/css/app.css', 'resources/js/app.js'])
-  </head>
+<x-app-layout>
   <section class="text-gray-600 body-font">
     <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
       <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
@@ -27,5 +12,4 @@
       </div>
     </div>
   </section>
-</html>
-
+</x-app-layout>
