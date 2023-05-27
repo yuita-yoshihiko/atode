@@ -7,7 +7,7 @@
         <p class="mb-8 leading-relaxed">あとでは、あとでやろう！と思っていることを一括管理できるアプリです。</p>
       </div>
       <div class="p-2 w-full">
-        <a href="{{ route('tasks.index') }}" class="btn flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</a>
+        <a href="{{ route('tasks.index') }}" class="btn flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">やること一覧</a>
       </div>
     </div>
   </section>
