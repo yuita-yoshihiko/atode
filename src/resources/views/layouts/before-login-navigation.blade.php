@@ -6,7 +6,7 @@
               <!-- Logo -->
               <div class="shrink-0 flex items-center">
                   <a href="{{ route('dashboard') }}">
-                      あとで
+                      まいほんだな
                   </a>
               </div>
           </div>
