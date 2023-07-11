@@ -31,6 +31,10 @@
                             {{ __('プロフィール') }}
                         </x-dropdown-link>
 
+                        <x-dropdown-link :href="route('book_shelves.create')">
+                            {{ __('ほんだな作成') }}
+                        </x-dropdown-link>
+
                         <x-dropdown-link :href="route('book_shelves.index')">
                             {{ __('まいほんだな') }}
                         </x-dropdown-link>
